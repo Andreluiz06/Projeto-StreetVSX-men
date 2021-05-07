@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Monsters Attack!';
+    src: url('MonstersAttack.woff2') format('woff2'),
+        url('MonstersAttack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SSF4 ABUKET';
+    src: url('SSF4ABUKET.woff2') format('woff2'),
+        url('SSF4ABUKET.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Feast of Flesh BB';
+    src: url('FeastofFleshBBItalic.woff2') format('woff2'),
+        url('FeastofFleshBBItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Feast of Flesh BB';
+    src: url('FeastofFleshBB.woff2') format('woff2'),
+        url('FeastofFleshBB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

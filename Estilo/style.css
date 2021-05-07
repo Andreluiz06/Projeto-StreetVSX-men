@@ -1,0 +1,263 @@
+@charset "UTF-8";
+@font-face{
+    font-family: "feast of flesh BB";
+    src: url(../fonts/FeastofFleshBBItalic.woff);
+} /*, "Helvetica",Arial, sans-serif*/
+
+body, html{
+    margin: auto;
+    font: 16px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+/*Efeito Parallax*/
+.caixa1, .caixa2{
+    height: 110%;
+    position: relative;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.caixa1{
+    background-image: url(../imagens/logo3.jpg);
+}
+.caixa2{
+    background-image: url(../imagens/imagem1.gif);
+}
+.conteudotitulo{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+#menu{
+    background-color: rgb(236, 222, 16);
+    padding: 20px;
+    text-align: center;
+}
+/*Formatações Menu*/
+
+a{
+    font-family: "feast of flesh BB";
+    font-size: 2.3em;
+    text-decoration: none;
+}
+a:link,  a:visited{
+    color: rgb(223, 32, 32);
+    padding: 9px 12px;
+}
+ a:hover{
+    color:  rgb(223, 32, 32);
+    background:#fff ;
+    text-decoration: none;
+    
+}
+/*coluna personagens*/
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+/*Caixa*/
+
+h2{
+    font-family: "feast of flesh BB";
+    font-size: 1em;
+    text-align: center;
+    background-color: rgb(236, 222, 16);
+    color: rgb(223, 32, 32);
+    padding: 5px;
+    margin: 0;
+    
+}
+footer h3{
+    font-family: "Helvetica",Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #000;
+    padding: 5px;
+    margin: 0;
+    
+}
+/* Formatando lista de noticias*/
+#lista-noticias li{
+    padding: 5px;
+    border-bottom: 1px solid ;
+    height: 300px;
+    
+}
+#lista-noticias li span img{
+    float: left;
+    margin: 5px;
+}
+/*Imagens*/
+
+#lista-noticias ul img{
+    position: left;
+    margin: 5px;
+}
+
+#lista-noticias li span h3{
+    font-family: "feast of flesh BB";
+    font-size:1.2em;
+    padding: 0;
+    color: #3e7ab9;
+    background: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Tabela Fases */
+
+ul#fases {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#fases li {
+    float: left;
+    width: 135px;
+    height: 35px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0.4);
+    -webkit-transition: all .2s ease-in;
+}
+ul#fases li:hover {
+    -webkit-transform: scale(1.5);
+}
+ul#fases li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0.3);
+    font-size: 5pt;
+    line-height: 60px;
+    padding: 2px;
+}
+ul#fases li:hover span {
+    opacity: 1;
+}
+ul#fases li#foto01 {
+    background: url("../imagens/dea.png") no-repeat;
+    background-position: 50% 50% ;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
+ul#fases li#foto02 {
+    background: url("../imagens/cat.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
+ul#fases li#foto03 {
+    background: url('../imagens/dol.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
+ul#fases li#foto04 {
+    background: url('../imagens/hil.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
+ul#fases li#foto05 {
+    background: url('../imagens/mal.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
+ul#fases li#foto06 {
+    background: url('../imagens/man.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
+ul#fases li#foto07 {
+    background: url('../imagens/rag.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto07:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
+ul#fases li#foto08 {
+    background: url('../imagens/sho.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto08:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
+ul#fases li#foto09 {
+    background: url('../imagens/tem.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto09:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
+ul#fases li#foto10 {
+    background: url('../imagens/cod.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto10:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
+ul#fases li#foto11 {
+    background: url('../imagens/apo.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 140px 40px;
+    background-color: #ffffff;
+}
+ul#fases li#foto11:hover {
+    background-position: 0px 0px;
+    background-size: 140px 40px;
+}
